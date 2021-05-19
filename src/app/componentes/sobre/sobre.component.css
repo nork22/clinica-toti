@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    width: 65%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;  
+    background-color: #3540a5;  
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px  rgb(87, 65, 214);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 40px;
+    font-family: cursive;
+    color: #e0e0e0;
+}
+
+.navlinks li a {
+    font-family: cursive;
+    font-size: 20px;
+    color: #e0e0e0;
+    transition: 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffffff;    
+}
+/* -------------------------------------- */

@@ -1,0 +1,115 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 10%;  
+    background-color: #3540a5;  
+    border-radius: 5px;
+	box-shadow: 1px 3px 3px 3px  rgb(87, 65, 214);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 40px;
+    font-family: cursive;
+    color: #e0e0e0;
+}
+
+.navlinks li a {
+    font-family: cursive;
+    font-size: 20px;
+    color: #e0e0e0;
+    transition: 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffffff;    
+}
+
+/* ----------------------------------------------------------- */
+.welcome h1 {
+	font-weight: 700;
+	text-align: center;
+	font-size: 80px;
+	margin: 4% auto 0;
+}
+
+/* ------------For TOTI s Animation */
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+span {
+	font-family: "Luckiest Guy", cursive;
+	color: #9c27b0;
+    display: inline-block;
+	animation: toti 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+  }
+  @keyframes toti {
+	0% {
+	  transform: scale(1.2)  rotateZ(10deg);
+	}
+	80%,
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+/* ---------------- Home page Welcome 2 */ 
+.welcome h2 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 40px;
+	margin: 5% auto 0;
+}
+/*---Fix the BUTTONS /Fix the BUTTONS /Fix the BUTTONS/ Fix the BUTTONS/ Fix the BUTTONS------------*/
+/* --------------Home page Vamos la */
+.paginas {
+justify-content: center;
+justify-items: center;
+}
+
+.botao {
+    font-size: 35px;
+	font-weight: 500;
+/* --------------Gradient website : https://cssgradient.io/*/
+    background: rgb(58,60,184);
+    background: linear-gradient(90deg, rgba(58,60,184,1) 12%, rgba(34,60,153,1) 54%, rgba(30,19,201,1) 88%, rgba(39,28,224,1) 99%, rgba(0,67,255,0.47102591036414565) 100%);	
+    width: 250px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+    border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 10px 10px 16px #020069;
+}
+.botao:hover {
+	box-shadow: 0 0 40px #00695c;
+}
+
+/* --------------Home page goto */
+.goto {
+    font-size: 35px;
+	font-weight: 500;
+/* --------------Gradient website : https://cssgradient.io/*/
+    background: rgb(58,60,184);
+    background: linear-gradient(90deg, rgba(58,60,184,1) 12%, rgba(34,60,153,1) 54%, rgba(30,19,201,1) 88%, rgba(39,28,224,1) 99%, rgba(0,67,255,0.47102591036414565) 100%);
+    width: 250px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 10px 10px 16px #020069;
+}
+.goto:hover {
+	box-shadow: 0 0 40px #00695c;
+}

@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+    padding: 10px 10%;  
+    background-color: #3540a5;  
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px  rgb(87, 65, 214);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: cursive;
+    color: #e0e0e0;
+}
+
+.navlinks li a {
+    font-family: cursive;
+    font-size: 20px;
+    color: #e0e0e0;
+    transition: 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffffff;    
+}
+
+/*---------------------------------------------------------*/
+
+/* ---------------- Clientes page Table */ 
+.clientes {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 40px;
+	margin: 2%;
+}
+	table {
+	position: relative;
+	width: 100%; 
+	background: ivory;
+	text-align: center;
+	box-shadow: 0 6px 15px #616161;
+	/* ---------------for the edges of Thead */
+ 	border-collapse: collapse;
+	border-radius: 12px 12px 0 0;
+	overflow: hidden;	
+   } 
+
+th, td {
+	padding: 7px 10px;
+	text-align: center;
+   }
+
+th {
+	background:#0288d1;
+	color: #fafafa;
+	font-weight: 200;
+	text-transform: uppercase;
+   }
+
+tr {
+	width: 100%;
+	background-color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn-info, .btn-danger {
+	width: 100px;
+	margin-left: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+   }
+   .espaco {
+	   padding: 0px;
+	   margin: 0px;
+   }
