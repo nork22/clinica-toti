@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule } from '@angular/forms'
 import { HomeComponent } from './home/home.component';
 import { ClientesComponent } from './clientes/clientes.component';
 import { FormularioComponent } from './formulario/formulario.component';
@@ -21,6 +21,7 @@ import { SobreComponent } from './sobre/sobre.component';
   ],
   imports: [
     CommonModule,
+    FormsModule
   ],
   exports:[
     HomeComponent,

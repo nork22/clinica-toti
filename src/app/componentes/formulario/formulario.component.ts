@@ -12,4 +12,9 @@ export class FormularioComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+  enviar(formular){
+    console.log(formular.form.value)
+  }
+
+  }
+

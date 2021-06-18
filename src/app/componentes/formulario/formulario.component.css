@@ -103,6 +103,7 @@ form div .radio {
     background: linear-gradient(90deg, rgba(58,60,184,1) 12%, rgba(34,60,153,1) 54%, rgba(30,19,201,1) 88%, rgba(39,28,224,1) 99%, rgba(0,67,255,0.47102591036414565) 100%);	
     width: 250px;
     padding: 20px;
+    margin-top: 20px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;

@@ -1,5 +1,5 @@
-<header>
-    <img class="logo" src="/src/assets/img/logo.png" alt="logo">
+ <!-- <header>
+    <img class="logo" src="/assets/img/logo.png" width="50" height="50" alt="logo">
     <nav>
         <ul class="navlinks">
             <li><a href="index.html" class="home">Início</a></li>
@@ -18,13 +18,23 @@
                 <th>Idade</th>
                 <th class="espaco">Opções</th>
             </tr>
-            <tr>
-                <td>Jõao</td>
-                <td>Silva</td>
-                <td>36</td>
-                <td>
-                    <button type="button" class="btn btn-info">Modificar</button>
-                    <button type="button" class="btn btn-danger">Apagar</button>
+            <tr *ngFor="let cliente of clientes">
+                <td>{{ id: cliente.id }}</td>
+                <td>{{ sobrenome: cliente.sobrenome }}</td>
+                <td>{{ idade: cliente.idade }}</td>
+         
+                 sexo: cliente.sexo,
+                tipo: cliente.tipo,
+                doneca: cliente.doneca,
+                doencaa: cliente.sexo,
+                email: cliente.email,
+                celular: cliente.celular,
+                cep: cliente.cep,
+                numero: cliente.numero -->
+
+                <!--  <td>
+                    <button type="button" class="btn btn-info" routerLink="update/{{cliente.id}}">Modificar</button>
+                    <button type="button" class="btn btn-danger" (click)="onDelete(cliente.id)">Apagar</button>
                 </td>
             </tr>
             <tr>
@@ -35,50 +45,5 @@
                     <button type="button" class="btn btn-info">Info</button>
                     <button type="button" class="btn btn-danger">Danger</button>
                 </td>
-            </tr>
-            <tr>
-                <td>Natalia</td>
-                <td>Santos</td>
-                <td>32</td>
-                <td>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Carlos</td>
-                <td>Sousa</td>
-                <td>44</td>
-                <td>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </td>
-            </tr>
-            <tr>
-                <td>richard</td>
-                <td>Ferreira</td>
-                <td>19</td>
-                <td>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Barbara</td>
-                <td>Pereira</td>
-                <td>56</td>
-                <td>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Alex</td>
-                <td>Marcelo</td>
-                <td>70</td>
-                <td>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </td>
-            </tr>
-        </table>
+            </tr>         
+        </table>  --> -->

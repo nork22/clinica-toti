@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,7 @@ header {
 
 /* ------------For TOTI s Animation */
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
 span {
 	font-family: "Luckiest Guy", cursive;
 	color: #9c27b0;
@@ -71,18 +73,22 @@ span {
 /*---Fix the BUTTONS /Fix the BUTTONS /Fix the BUTTONS/ Fix the BUTTONS/ Fix the BUTTONS------------*/
 /* --------------Home page Vamos la */
 .paginas {
-justify-content: center;
-justify-items: center;
+/* display: flex;
+ */justify-content: center;
 }
 
 .botao {
+	display: block;
+	margin: 40px auto;
     font-size: 35px;
 	font-weight: 500;
+	color: #e0e0e0;
 /* --------------Gradient website : https://cssgradient.io/*/
     background: rgb(58,60,184);
     background: linear-gradient(90deg, rgba(58,60,184,1) 12%, rgba(34,60,153,1) 54%, rgba(30,19,201,1) 88%, rgba(39,28,224,1) 99%, rgba(0,67,255,0.47102591036414565) 100%);	
     width: 250px;
 	padding: 20px;
+	
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -93,11 +99,17 @@ justify-items: center;
 .botao:hover {
 	box-shadow: 0 0 40px #00695c;
 }
+.botao a {
+	color: inherit;
+}
 
 /* --------------Home page goto */
 .goto {
+	display: block;
+	margin: 20px auto;
     font-size: 35px;
 	font-weight: 500;
+	color: #e0e0e0;
 /* --------------Gradient website : https://cssgradient.io/*/
     background: rgb(58,60,184);
     background: linear-gradient(90deg, rgba(58,60,184,1) 12%, rgba(34,60,153,1) 54%, rgba(30,19,201,1) 88%, rgba(39,28,224,1) 99%, rgba(0,67,255,0.47102591036414565) 100%);
@@ -112,4 +124,8 @@ justify-items: center;
 }
 .goto:hover {
 	box-shadow: 0 0 40px #00695c;
+}
+
+.goto a {
+	color: inherit;
 }
